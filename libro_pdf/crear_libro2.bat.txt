@@ -1,0 +1,3 @@
+xsltproc C:\Users\Alumno\Downloads\docbook-xsl-1.78.0\fo\docbook.xsl MyFirstDocbook.xml > MyFirstDocbook.fo
+
+fop MyFirstDocbook.fo MyFirstDocbook.pdf

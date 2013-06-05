@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="es" unique-identifier="pub-identifier">
+  <metadata>
+    <dc:identifier id="pub-identifier">_id587285</dc:identifier>
+    <meta id="meta-identifier" property="dcterms:identifier">_id587285</meta>
+    <dc:title id="pub-title">Manual Iphone Gestiona</dc:title>
+    <meta property="dcterms:title" id="meta-title">Manual Iphone Gestiona</meta>
+    <dc:language id="pub-language">es</dc:language>
+    <meta property="dcterms:language" id="meta-language">es</meta>
+    <meta property="dcterms:modified">2013-06-05T18:53:21Z</meta>
+    <!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+    <meta id="meta-creator3" property="dcterms:creator">Marco Villuendas</meta>
+    <dc:creator id="pub-creator3">Marco Villuendas</dc:creator>
+    <meta property="dcterms:subject">Gestiona Iphone</meta>
+    <dc:subject>Gestiona Iphone</dc:subject>
+    <meta property="dcterms:subject">Administración pública</meta>
+    <dc:subject>Administración pública</dc:subject>
+    <meta property="dcterms:description">Introducción a docbook. Docbook para creación de documentación técnica</meta>
+    <dc:description>Introducción a docbook. Docbook para creación de documentación técnica</dc:description>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="article-id587285-toc.xhtml"/>
+    <item media-type="text/css" id="docbook-css" href="docbook-epub.css"/>
+    <item id="id588536" href="img/portada.jpg" media-type="image/jpeg"/>
+    <item id="id588535" href="img/desc.jpg" media-type="image/jpeg"/>
+    <item id="id588540" href="img/acceso.jpg" media-type="image/jpeg"/>
+    <item id="id588546" href="img/logear.jpg" media-type="image/jpeg"/>
+    <item id="id588552" href="img/preferencias.jpg" media-type="image/jpeg"/>
+    <item id="id588558" href="img/login2.jpg" media-type="image/jpeg"/>
+    <item id="id588539" href="img/autoriza.jpg" media-type="image/jpeg"/>
+    <item id="id594374" href="img/pantalla.jpg" media-type="image/jpeg"/>
+    <item id="id594380" href="img/fotos.jpg" media-type="image/jpeg"/>
+    <item id="id594386" href="img/capturar.jpg" media-type="image/jpeg"/>
+    <item id="id594392" href="img/firmar.jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="htmltoc" linear="yes"/>
+  </spine>
+  <guide>
+    <reference href="article-id587285-toc.xhtml" type="toc" title="Table of Contents"/>
+  </guide>
+</package>
