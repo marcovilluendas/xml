@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- artículo de ejemplo:
+Namespaces
+ -->
+ 
+<article xmlns="http://docbook.org/ns/docbook"
+	 xmlns:xl="http://www.w3.org/1999/xlink"
+	 version="5.0" xml:lang="es">
+	 
+<info> 
+
+
+
+<title>Manual Iphone Gestiona</title>
+<subtitle>Guia para la instalacion de Gestiona en Iphone</subtitle>
+<author>
+<personname>Marco Villuendas</personname>
+</author>
+<keywordset>
+	<keyword>Gestiona Iphone</keyword>
+	<keyword>Administración pública</keyword>
+</keywordset>
+
+<abstract>
+	<para>Introducción a docbook.</para>
+	<para>Docbook para creación de documentación técnica</para>
+</abstract>
+</info>
+
+<section>
+	
+	<figure>
+<title></title>
+<mediaobject>
+<imageobject>
+<imagedata fileref='img/portada.jpg' width="75%" height= "75%"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+	<title>1. Descargar la App del Apple Store</title>
+		<para> 
+			La App Gestiona Movil es gratuita y se encuentra disponible en el Apple Store. El primer paso es la descarga de la aplicación desde el App Store en el dispositivo móvil.
+			Para realizar la descargar, se va la sección de buscar de la App Store e introducimos la palabra gestiona movil.
+		</para>
+</section>
+
+
+<section>
+	
+	
+
+
+<title>2. Descripción general</title>
+<para>La aplicación de Gestiona ofrece servicios complementarios a la plataforma Web utilizando las
+funcionalidades y ventajas que ofrecen los dispositivos móviles Smartphone.
+</para>
+
+
+<figure>
+	<title></title>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref='img/desc.jpg' width="65%" height= "65%"/>
+	</imageobject>
+	</mediaobject>
+</figure>
+	
+<para> Dentro de la aplicación el usuario se encontrará con dos secciones diferenciadas:</para>
+<itemizedlist>
+<listitem><para>
+1.
+Portafirmas.
+Firma electrónica móvil</para>
+</listitem>
+
+
+<listitem><para>2. Fotos.
+Envío de Fotos a Expedientes</para>
+</listitem>
+
+<para> Para acceder a cada una de las dos secciones será necesario de disponer de los permisos de
+usuario en Gestiona : </para>
+
+<listitem><para>1.Portafirmas.
+- Firma electrónica móvil
+Para esta sección es necesario disponer del permiso Firmar </para>
+</listitem>
+<listitem><para>2. Fotos.
+- Envío de Fotos a Expedientes
+Para acceder a esta sección es necesario disponer del permiso Ver Expedientes y Editar Expediente para poder realizar el envío de la Foto al expediente</para>
+</listitem>
+
+</itemizedlist>
+</section>
+
+<section>
+<title>3. Acceso a la aplicación</title>
+<para>Una vez descargada e instalada la aplicación, accedemos a la misma pulsando en el icono de la aplicación.</para>
+<figure>
+	<title></title>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref='img/acceso.jpg' width="55%" height= "55%"/>
+	</imageobject>
+	</mediaobject>
+</figure>
+</section>
+
+<section>
+<title>4. Login de usuario</title>
+<para>Al acceder a la aplicación, nos aparecerá la pantalla de Login de la aplicación.</para>
+
+<figure>
+	<title></title>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref='img/logear.jpg' width="55%" height= "55%"/>
+	</imageobject>
+	</mediaobject>
+</figure>
+
+<para>En esta pantalla se encuentran dos botones: logear y preferencias</para>
+</section>
+
+<section>
+	
+<title>5. Estableciendo las preferencias de uso</title>
+<para>El botón de “preferencias” nos llevará a la sección de la app donde podremos establecer 
+	los parámetros avanzados para el usuario, en donde se podrá especificar la dirección de la plataforma 
+	Gestiona que estemos utilizando. 
+	Al pulsar el botón preferencias nos aparecerá la siguiente imagen</para>
+	
+<figure>
+	<title></title>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref='img/preferencias.jpg' width="55%" height= "55%"/>
+	</imageobject>
+	</mediaobject>
+</figure>
+
+<para> En esta pantalla podremos seleccionar la dirección de los servicios para la App de la instalación de 
+	Gestiona que utilizamos como usuarios de la plataforma Web. 
+	Esta dirección será la dirección de acceso habitual de la plataforma Web a la que se añadirá “/rest/”en 
+	la parte final de la dirección. Como ejemplo, si nuestra dirección de acceso es https://gestiona-02.espublico.com, 
+	añadiríamos /rest/ 
+	al final quedando que la dirección de los servicios para la App https:// gestiona-02.espublico.com/rest/.</para>
+	
+</section>
+
+<section>
+<title>6. Login de Usuario (2)</title>
+<para>Una vez configuradas las preferencias podemos realizar el login en la plataforma, 
+	para lo cual desde la pantalla de entrada (Ver Ilustración 4) presionamos el botón Login. 
+	En ese momento la aplicación comprueba si ya nos habíamos identificado previamente, para en ese caso acceder 
+	directamente a los servicios de la aplicación con nuestra cuenta de usuario.</para>
+	
+<para>6.1. Primer acceso
+La primera vez que accedamos o después de haber desconectado, al hacer login nos redirigirá a la plataforma Web 
+de Gestiona para que nos identifiquemos en ella y autoricemos a la aplicación a acceder a los datos de Gestiona. 
+Para ello, en primer lugar nos mostrará una pantalla de login de usuario como se muestra en la siguiente imagen.</para>
+
+<figure>
+	<title></title>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref='img/login2.jpg' width="55%" height= "55%"/>
+	</imageobject>
+	</mediaobject>
+</figure>
+
+<para>Introducimos nuestro nombre de usuario y password de la plataforma Gestiona y le damos a entrar. 
+	Entonces comprobará la identificación en Gestiona, y si es correcta, 
+	nos pedirá que autoricemos a la aplicación tal y como muestra la siguiente imagen.</para>
+<figure>
+	<title></title>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref='img/autoriza.jpg' width="55%" height= "55%"/>
+	</imageobject>
+	</mediaobject>
+</figure>
+<para>Seleccionamos la opción Aceptar terminando de esta forma el proceso de autenticación y autorización y redirigiéndonos automáticamente la aplicación a la pantalla principal.
+Atención: Esta operación pueda tardar unos segundos antes de redirigir a la pantalla principal.</para>
+</section>
+
+<section><title>7. Pantalla Principal </title>
+<para> Una vez identificados, al entrar nos redirigirá automáticamente a la pantalla principal 
+	donde podremos encontrar los diferentes servicios disponibles según nuestros permisos.</para>
+<figure>
+	<title></title>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref='img/pantalla.jpg' width="55%" height= "55%"/>
+	</imageobject>
+	</mediaobject>
+</figure>	
+
+<para> 7.1. Botón Logout (Desconectar)
+Si queremos desconectarnos de la aplicación, presionamos el botón de Logout. Esto provocará que desconectemos la aplicación de la plataforma Gestiona y por lo tanto la próxima vez que accedamos tendremos que volver a identificarnos.</para>	
+<para> 7.2. Botón Config (Configuración Avanzada)
+El botón Config permite establecer las preferencias de la aplicación de la misma forma que se ha explicado en el apartado 5. Establecer preferencias.</para>	
+</section>
+
+
+<section><title>8. Fotos </title>
+<para> Este módulo de la aplicación permite al usuario realizar fotografías desde el propio dispositivo móvil 
+e incorporarlas de forma automática al expediente que seleccione el usuario.
+Al acceder al módulo, la aplicación leerá de la plataforma Gestiona los expedientes abiertos del Ayuntamiento 
+a los que tenga acceso con mi usuario, y los mostrará en un listado tal y como se muestra en la siguiente imagen. 
+Para cada expediente nos mostrará su código, nombre y los principales datos básicos del mismo.</para>
+<figure>
+	<title></title>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref='img/fotos.jpg' width="55%" height= "55%"/>
+	</imageobject>
+	</mediaobject>
+</figure>
+
+<para>Podremos navegar por el listado de expedientes hasta encontrar el expediente al que queremos subir una nueva fotografía. Al seleccionar el expediente nos mostrará una nueva pantalla donde podremos realizar nuevas fotografías con el dispositivo móvil. 
+	Para ello, presionamos el botón Capturar Foto.</para>
+	<figure>
+	<title></title>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref='img/capturar.jpg' width="55%" height= "55%"/>
+	</imageobject>
+	</mediaobject>
+</figure>
+	
+	<para>En esta pantalla nos irán apareciendo las diferentes fotografías que vayamos realizando, pudiendo visualizarlas y enviarlas.</para>
+
+</section>
+
+<section><title>9. Portafirmas</title>
+<para>Este módulo de la aplicación permite acceder a consultar el portafirmas de Gestiona con los documentos pendientes de firmar del usuario identificado. Para cada uno de los documentos nos permitirá descargarlo y proceder a firmarlo electrónicamente con un certificado reconocido.
+9.1. Listado de Documentos pendientes de firma.
+Al acceder a este módulo automáticamente la aplicación consulta el portafirmas de Gestiona del usuario y nos muestra el listado de documentos pendientes para firmar.
+</para>
+
+<figure>
+	<title></title>
+	<mediaobject>
+	<imageobject>
+	<imagedata fileref='img/firmar.jpg' width="55%" height= "55%"/>
+	</imageobject>
+	</mediaobject>
+</figure>
+	
+<para> Podemos navegar por el listado de documentos. 
+	Para cada documento nos mostrará el nombre del documento, 
+	el código y nombre del expediente al que pertenece y la fecha y hora que ha sido enviado a firmar.</para>
+	<para> 9.2. Visualizar y Firmar un documento
+Desde el listado de documentos pendientes de firma, seleccionamos el documento que queramos ver y firmar. 
+Al seleccionar nos descargará el documento para su visualización dentro del dispositivo móvil.</para>
+
+
+</section>
+
+
+
+</article>
